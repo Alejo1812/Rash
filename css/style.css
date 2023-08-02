@@ -1,0 +1,74 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+  
+  header,
+  footer {
+    grid-column: 1;
+    background-color: rgb(255, 38, 38);
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-content: center;
+  }
+  
+  .Titulo {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 3px solid rgb(104, 2, 2);
+  }
+  
+  .botoncito {
+    background-color: rgb(226, 24, 24);
+    padding: 10px;
+    border: 3px solid rgb(104, 2, 2);
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .botoncito:hover {
+    background-color: rgb(255, 38, 38);
+  }
+  
+  ul,
+  ol {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: rgb(255, 38, 38);
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  img {
+    grid-column: 1;
+    justify-self: center;
+    width: 200px;
+  }
+  
+  input[type="radio"] {
+    grid-column: 1;
+    justify-self: center;
+  }
+  
+  body {
+    background-color: gray;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }

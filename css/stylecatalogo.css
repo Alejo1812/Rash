@@ -1,0 +1,43 @@
+/* Estilos para el contenido principal */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  color: rgb(255, 38, 38);
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Estilos para el catálogo */
+.catalogo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.catalogo-item {
+  flex: 0 0 300px;
+  margin: 20px;
+}
+
+.catalogo-item img {
+  width: 100%;
+  height: auto;
+}
+
+.catalogo-item select {
+  width: 100%;
+}
+
+/* Estilos para el encabezado y el pie de página */
+header,
+footer {
+  background-color: rgb(255, 38, 38);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
